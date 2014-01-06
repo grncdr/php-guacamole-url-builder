@@ -16,8 +16,7 @@ $url = $urlBuilder->url("myserver", "vnc", "myvncserver.internal");
 
 ## Install
 
-Add `"grncdr/guacamole-url-builder": "0.8.x"` to the `"require"` section of
-your `composer.json`.
+   composer require grncdr/guacamole-url-builder@0.8.x
 
 ## License
 

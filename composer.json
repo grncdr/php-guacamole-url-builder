@@ -1,4 +1,6 @@
 {
+  "name": "grncdr/guacamole-url-builder",
+  "version": "0.8.4",
   "autoload": {
     "psr-0": {
       "Guacamole": [ "src/" ]
