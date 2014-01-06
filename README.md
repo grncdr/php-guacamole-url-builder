@@ -1,5 +1,7 @@
 # guacamole-url-builder
 
+[![Build Status](https://travis-ci.org/grncdr/php-guacamole-url-builder.png?branch=master)](https://travis-ci.org/grncdr/php-guacamole-url-builder)
+
 Create signed URLs for use with [guacamole-auth-hmac][] in PHP.
 
 ## Synopsis
