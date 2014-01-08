@@ -14,6 +14,20 @@ $urlBuilder = new Guacamole\UrlBuilder(
 $url = $urlBuilder->url("myserver", "vnc", "myvncserver.internal");
 ```
 
+In most cases, you will want to include a username and password in your connection
+information:
+
+```php
+$url = $urlBuilder->url("myserver", "vnc", "myvncserver.internal", array(
+    "guac.username" => "stephen",
+    "guac.password" => "password"
+));
+```
+
+**Warning:** The username and password will be included in the URL in plain-text.
+You should either use SSL in front of your Guacamole server or firewall it off
+from the outside world.
+
 ## Install
 
     composer require grncdr/guacamole-url-builder 0.8.x
